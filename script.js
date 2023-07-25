@@ -19,7 +19,9 @@ function addition() {
     botton.addEventListener('click', function hanleclick(){
         console.log ("clicked");
         // this.parentNode.removeChild (list);
-        list.remove();
+        // list.remove();
+        list.style.textDecoration = 'line-through'
+        
     })
     var parent = document.getElementById("dew")
     var fet = document.getElementById("sew").value + '       '
@@ -31,6 +33,8 @@ function addition() {
     list.appendChild(mytext)
     list.appendChild(botton)
     parent.appendChild(list)
+    var qwe = null
+    fet = qwe
    
     
 }

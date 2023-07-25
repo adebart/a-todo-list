@@ -1,0 +1,81 @@
+body{
+    background-color: #000000;
+}
+.div1{
+    background-color: #f3ca20;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    height: 50px;
+    border-radius: 10px;
+    width: 80vw;
+
+}
+button{
+    height: 30px;
+    width: 15vw;
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 8px;
+}
+li{
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.div3{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    background-color: black;
+    border: 2px solid #f3ca20;
+    margin: auto;
+    height: 40px;
+    color: #f3ca20;
+    width: 40vw;
+    font-size: 1.5rem;
+    border-top-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+margin-bottom: 30px;
+}
+.div2{
+    background-color: #f3ca20;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+
+    margin-right: 20px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+
+}
+.texo{
+    color: #f3ca20; 
+    margin-top: 25px;
+    text-align: center;
+}
+@media  (max-width: 600px) {
+    input{
+        width: 60vw;
+    }
+
+    button{
+        font-size: 14px;
+        width: 19vw;
+    }
+}
